@@ -135,7 +135,7 @@ export class FlagFormData {
     return new Flag(percentage, trueVal, falseVal, defaultVal, {
       rule: this.rule,
       version: this.version,
-      trackEvents: this.trackEvents || true,
+      trackEvents: this.trackEvents,
       disable: this.disable || false,
       rollout: rollout
     })
