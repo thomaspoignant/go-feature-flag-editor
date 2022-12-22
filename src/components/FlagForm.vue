@@ -176,7 +176,7 @@
               <div class="col-md-8">
                 <input type="text" class="form-control" :id="'flag_rule_' + counter" :aria-describedby="'flag_rule_help'+ counter" placeholder="Rule" v-model="flag.rule">
                 <small :id="'flag_rule_help'+ counter" class="form-text text-muted">
-                  Please follow the rule format describe in the <a href="https://thomaspoignant.github.io/go-feature-flag/flag_format/#rule-format" target="_blank">documentation</a>.
+                  Please follow the rule format describe in the <a href="https://docs.gofeatureflag.org/docs/flag_format#rule-format" target="_blank">documentation</a>.
                 </small>
               </div>
             </div>
